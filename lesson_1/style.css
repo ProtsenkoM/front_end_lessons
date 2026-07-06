@@ -1,0 +1,76 @@
+/* приклад з використанням css-нестінгу */
+body {
+
+    background-color: #000;
+    color: antiquewhite;
+
+    header {
+
+        max-width: 1110px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        margin-left: auto;
+        margin-right: auto;
+
+        img {
+            border-radius: 50%;
+            width: 20%;
+        }
+    }
+
+    hr {
+        max-width: 1110px;
+        margin-bottom: 20px;
+    }
+
+    main {
+
+        max-width: 1110px;
+        margin-left: auto;
+        margin-right: auto;
+
+        section {
+
+            background-color: rgb(31, 31, 28);
+            padding: 20px;
+
+            h1 {
+                text-transform: uppercase;
+                font-size: 48px;
+                font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+            }
+
+            p {
+
+                font-size: 18px;
+                line-height: 24px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                text-align: justify;
+
+                a {
+
+                    font-size: 18px;
+                    line-height: 24px;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    text-align: justify;
+
+                    &:hover {
+                        color: rgb(124, 215, 240);
+                    }
+                }
+            }
+        }
+    }
+
+    footer {
+
+        max-width: 1110px;
+        margin-left: auto;
+        margin-right: auto;
+
+        p {
+            font-size: 24px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+    }
+}
