@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+}
+
+body,
+h3,
+h4,
+p {
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.figtree-medium {
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+
+}
+
+
+.figtree-exbold {
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+
+}
+
+body {
+    background-color: #f4d04e;
+
+    section {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        article {
+            background-color: #fff;
+            width: fit-content;
+            height: fit-content;
+            max-width: 384px;
+            padding: 24px;
+            row-gap: 24px;
+            border: 1px solid #111111;
+            box-shadow: 8px 8px 0px #000000;
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: start;
+
+            .bg {
+                background-image: url(./assets/images/illustration-article.svg);
+                height: 200px;
+                border-radius: 10px;
+                width: 100%;
+            }
+
+            .info {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: start;
+                row-gap: 12px;
+                h3{
+                    font-size: 14px;
+                    line-height: 150%;
+                    color:#111111;
+                    width: 82px;
+                    height: 29px;
+                    display: flex;
+                    justify-content: center;
+                    align-items:center;
+                    background: #f4d04e;
+                    border-radius:4px;
+
+                }
+                .time{
+                    font-size:14px;
+                    line-height: 150%;
+                    color:#111111;
+
+                }
+                h4{
+                    font-size: 24px;
+                    line-height: 150%;
+                    color:#111111;
+                    transition: color 500ms ease-in-out;
+
+                    &:hover{
+                        color:#f4d04e;
+                    }
+                }
+
+                .description{
+                    font-size:16px;
+                    line-height: 150%;
+                    color:#6b6b6b;
+                }
+
+
+            }
+            .footer{
+                display: flex;
+                justify-content: start;
+                align-items: center;
+                gap: 10px;
+
+                p{
+                    font-size: 14px;
+                    line-height: 150%;
+                    color:#111111;
+         
+
+                }
+
+                img{
+                    width: 32px;
+                    height: 32px;
+                }
+            }
+        }
+    }
+
+}
